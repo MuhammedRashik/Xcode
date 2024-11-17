@@ -8,8 +8,8 @@ const UserRouter=()=>{
 
 <Routes>
 
-<Route path="/" element={<ProductList />} />
-<Route path="/cart" element={<Cart />} />
+<Route path="/*" element={<ProductList />} />
+{/* <Route path="/cart" element={<Cart />} /> */}
 
 </Routes>
 
